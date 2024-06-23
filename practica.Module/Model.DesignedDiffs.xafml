@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application Title="practica">
+  <BOModel>
+    <Class Name="practica.Module.BusinessObjects.Institute">
+      <OwnMembers>
+        <Member Name="InstituteId" AllowEdit="False" />
+      </OwnMembers>
+    </Class>
+  </BOModel>
+  <NavigationItems>
+    <Items>
+      <Item Id="@8002ff35-bc38-4aac-84d9-0604801a1f53" Caption="Other" IsNewNode="True">
+        <Items IsNewNode="True">
+          <Item Id="Institute_ListView" Index="0" ViewId="Institute_ListView" ObjectKey="" IsNewNode="True" />
+          <Item Id="Department_ListView" Index="1" ViewId="Department_ListView" ObjectKey="" IsNewNode="True" />
+          <Item Id="EducationalProgram_ListView" ViewId="EducationalProgram_ListView" ObjectKey="" IsNewNode="True" />
+          <Item Id="Group_ListView" ViewId="Group_ListView" ObjectKey="" IsNewNode="True" />
+        </Items>
+      </Item>
+      <Item Id="@f4c3d3b2-8168-474c-bd62-75084f35f6d7" Caption="Peoples" IsNewNode="True">
+        <Items IsNewNode="True">
+          <Item Id="Teacher_ListView" Index="2" ObjectKey="" ViewId="Teacher_ListView" IsNewNode="True" />
+          <Item Id="Student_ListView" ViewId="Student_ListView" ObjectKey="" IsNewNode="True" />
+        </Items>
+      </Item>
+      <Item Id="Default" Removed="True">
+        <Items>
+          <Item Id="Institute_ListView" Index="0" Removed="True" />
+          <Item Id="Department_ListView" Index="1" Removed="True" />
+          <Item Id="Teacher_ListView" Index="2" Removed="True" />
+          <Item Id="EducationalProgram_ListView" Removed="True" />
+          <Item Id="Group_ListView" Removed="True" />
+          <Item Id="Student_ListView" Removed="True" />
+        </Items>
+      </Item>
+    </Items>
+  </NavigationItems>
+  <Options>
+    <LayoutManagerOptions RequiredFieldMark="*" />
+  </Options>
+  <SchemaModules>
+    <SchemaModule Name="SystemModule" Version="24.1.3.0" IsNewNode="True" />
+  </SchemaModules>
+  <Views>
+    <DetailView Id="Department_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="Department">
+              <LayoutGroup Id="Department_col1">
+                <LayoutItem Id="Name" Index="0" />
+                <LayoutItem Id="ShortName" Index="1" />
+                <LayoutItem Id="Institute" Index="2" />
+                <LayoutItem Id="PhoneNumber" ViewItem="PhoneNumber" ShowCaption="" Index="3" IsNewNode="True" />
+                <LayoutItem Id="Email" ViewItem="Email" Index="4" IsNewNode="True" />
+              </LayoutGroup>
+              <LayoutGroup Id="Department_col2" Removed="True">
+                <LayoutItem Id="DepartmentId" Removed="True" />
+                <LayoutItem Id="PhoneNumber" Removed="True" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="EducationalProgram_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="EducationalProgram">
+              <LayoutItem Id="Level" Index="1" />
+              <LayoutItem Id="Name" Index="2" />
+              <LayoutItem Id="Profile" Index="3" />
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="Group_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="Group">
+              <LayoutItem Id="GroupId" Removed="True" />
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="Institute_DetailView">
+      <Items>
+        <PropertyEditor Id="InstituteId" AllowEdit="True" />
+      </Items>
+      <Layout>
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="Institute">
+              <LayoutItem Id="InstituteId" ViewItem="InstituteId" Removed="True" />
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="Student_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="Student">
+              <LayoutGroup Id="Student_col1">
+                <LayoutItem Id="Group" Index="1" />
+                <LayoutItem Id="Institute" Index="2" />
+                <LayoutItem Id="PhoneNomber" ViewItem="PhoneNomber" ShowCaption="" Index="3" IsNewNode="True" />
+                <LayoutItem Id="Email" ViewItem="Email" ShowCaption="" Index="4" IsNewNode="True" />
+              </LayoutGroup>
+              <LayoutGroup Id="Student_col2" Removed="True">
+                <LayoutItem Id="CreditNomber" Removed="True" />
+                <LayoutItem Id="Email" Removed="True" />
+                <LayoutItem Id="PhoneNomber" Removed="True" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="Teacher_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="Teacher">
+              <LayoutGroup Id="Teacher_col1">
+                <LayoutItem Id="Department" ViewItem="Department" ShowCaption="" Index="1" IsNewNode="True" />
+                <LayoutItem Id="PhoneNomber" Index="2" />
+                <LayoutItem Id="Mail" Index="3" />
+              </LayoutGroup>
+              <LayoutGroup Id="Teacher_col2" Removed="True">
+                <LayoutItem Id="Department" Removed="True" />
+                <LayoutItem Id="TeacherId" Removed="True" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+  </Views>
+</Application>

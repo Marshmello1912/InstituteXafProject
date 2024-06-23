@@ -1,0 +1,217 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\rosla\\source\\repos\\practica\\practica.Web\\practica.Web.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\rosla\\source\\repos\\practica\\practica.Module.Web\\practica.Module.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\rosla\\source\\repos\\practica\\practica.Module.Web\\practica.Module.Web.csproj",
+        "projectName": "practica.Module.Web",
+        "projectPath": "C:\\Users\\rosla\\source\\repos\\practica\\practica.Module.Web\\practica.Module.Web.csproj",
+        "packagesPath": "C:\\Users\\rosla\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rosla\\source\\repos\\practica\\practica.Module.Web\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files\\DevExpress 24.1\\Components\\Offline Packages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rosla\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 24.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\DevExpress 24.1\\Components\\System\\Components\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "projectReferences": {
+              "C:\\Users\\rosla\\source\\repos\\practica\\practica.Module\\practica.Module.csproj": {
+                "projectPath": "C:\\Users\\rosla\\source\\repos\\practica\\practica.Module\\practica.Module.csproj"
+              }
+            }
+          }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "dependencies": {
+            "DevExpress.ExpressApp.CodeAnalysis": {
+              "target": "Package",
+              "version": "[24.1.3, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-arm64": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Users\\rosla\\source\\repos\\practica\\practica.Module\\practica.Module.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\rosla\\source\\repos\\practica\\practica.Module\\practica.Module.csproj",
+        "projectName": "practica.Module",
+        "projectPath": "C:\\Users\\rosla\\source\\repos\\practica\\practica.Module\\practica.Module.csproj",
+        "packagesPath": "C:\\Users\\rosla\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rosla\\source\\repos\\practica\\practica.Module\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files\\DevExpress 24.1\\Components\\Offline Packages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rosla\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 24.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\DevExpress 24.1\\Components\\System\\Components\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "dependencies": {
+            "DevExpress.ExpressApp.CodeAnalysis": {
+              "target": "Package",
+              "version": "[24.1.3, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-arm64": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Users\\rosla\\source\\repos\\practica\\practica.Web\\practica.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\rosla\\source\\repos\\practica\\practica.Web\\practica.Web.csproj",
+        "projectName": "practica.Web",
+        "projectPath": "C:\\Users\\rosla\\source\\repos\\practica\\practica.Web\\practica.Web.csproj",
+        "packagesPath": "C:\\Users\\rosla\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rosla\\source\\repos\\practica\\practica.Web\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files\\DevExpress 24.1\\Components\\Offline Packages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rosla\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 24.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\DevExpress 24.1\\Components\\System\\Components\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "projectReferences": {
+              "C:\\Users\\rosla\\source\\repos\\practica\\practica.Module.Web\\practica.Module.Web.csproj": {
+                "projectPath": "C:\\Users\\rosla\\source\\repos\\practica\\practica.Module.Web\\practica.Module.Web.csproj"
+              },
+              "C:\\Users\\rosla\\source\\repos\\practica\\practica.Module\\practica.Module.csproj": {
+                "projectPath": "C:\\Users\\rosla\\source\\repos\\practica\\practica.Module\\practica.Module.csproj"
+              }
+            }
+          }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "dependencies": {
+            "DevExpress.ExpressApp.CodeAnalysis": {
+              "target": "Package",
+              "version": "[24.1.3, )"
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
+            "System.Numerics.Vectors": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "System.Threading.Tasks.Extensions": {
+              "target": "Package",
+              "version": "[4.5.4, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-arm64": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}
