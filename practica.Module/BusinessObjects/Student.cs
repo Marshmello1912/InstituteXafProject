@@ -35,6 +35,7 @@ namespace practica.Module.BusinessObjects
             // Place your initialization code here (https://documentation.devexpress.com/eXpressAppFramework/CustomDocument112834.aspx).
         }
 
+        byte[] photo;
         int creditNomber;
         Institute institute;
 
@@ -67,7 +68,7 @@ namespace practica.Module.BusinessObjects
             set => SetPropertyValue(nameof(Institute), ref institute, value);
         }
 
-        [Size(SizeAttribute.DefaultStringMappingFieldSize)]
+        [Size(SizeAttribute.DefaultStringMappingFieldSize), RuleRegularExpression("^((8|\\+7)[\\- ]?)?(\\(?\\d{3}\\)?[\\- ]?)?[\\d\\- ]{7,10}$",CustomMessageTemplate ="Enter correct phone nomber")]
         public string PhoneNomber
         {
             get => phoneNomber;
@@ -75,7 +76,7 @@ namespace practica.Module.BusinessObjects
         }
 
 
-        [Size(SizeAttribute.DefaultStringMappingFieldSize), RuleRequiredField]
+        [Size(SizeAttribute.DefaultStringMappingFieldSize), RuleRequiredField, RuleRegularExpression("[\\s\\S]+@[\\s\\S]+\\.[\\s\\S]",CustomMessageTemplate ="Enter correct email")]
         public string Email
         {
             get => email;
@@ -87,6 +88,13 @@ namespace practica.Module.BusinessObjects
         {
             get => creditNomber;
             set => SetPropertyValue(nameof(CreditNomber), ref creditNomber, value);
+        }
+
+        [ImageEditor(DetailViewImageEditorFixedHeight = 200, ListViewImageEditorCustomHeight = 100)]
+        public byte[] Photo
+        {
+            get => photo;
+            set => SetPropertyValue(nameof(Photo), ref photo, value);
         }
 
     }

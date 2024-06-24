@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\rosla\\source\\repos\\practica\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{805AEC2B-909B-4D0E-8D13-F96383F7B9FF}|practica.Module\\practica.Module.csproj|C:\\Users\\rosla\\source\\repos\\practica\\practica.module\\businessobjects\\educationalprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{805AEC2B-909B-4D0E-8D13-F96383F7B9FF}|practica.Module\\practica.Module.csproj|solutionrelative:practica.module\\businessobjects\\educationalprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{805AEC2B-909B-4D0E-8D13-F96383F7B9FF}|practica.Module\\practica.Module.csproj|C:\\Users\\rosla\\source\\repos\\practica\\practica.module\\businessobjects\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{805AEC2B-909B-4D0E-8D13-F96383F7B9FF}|practica.Module\\practica.Module.csproj|c:\\users\\rosla\\source\\repos\\practica\\practica.module\\businessobjects\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{805AEC2B-909B-4D0E-8D13-F96383F7B9FF}|practica.Module\\practica.Module.csproj|solutionrelative:practica.module\\businessobjects\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{805AEC2B-909B-4D0E-8D13-F96383F7B9FF}|practica.Module\\practica.Module.csproj|c:\\users\\rosla\\source\\repos\\practica\\practica.module\\model.designeddiffs.xafml||{4DD02038-D78C-4AD3-8B8D-13FC109B2DCF}",
-      "RelativeMoniker": "D:0:0:{805AEC2B-909B-4D0E-8D13-F96383F7B9FF}|practica.Module\\practica.Module.csproj|solutionrelative:practica.module\\model.designeddiffs.xafml||{4DD02038-D78C-4AD3-8B8D-13FC109B2DCF}"
+      "AbsoluteMoniker": "D:0:0:{805AEC2B-909B-4D0E-8D13-F96383F7B9FF}|practica.Module\\practica.Module.csproj|C:\\Users\\rosla\\source\\repos\\practica\\practica.module\\businessobjects\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{805AEC2B-909B-4D0E-8D13-F96383F7B9FF}|practica.Module\\practica.Module.csproj|solutionrelative:practica.module\\businessobjects\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{805AEC2B-909B-4D0E-8D13-F96383F7B9FF}|practica.Module\\practica.Module.csproj|C:\\Users\\rosla\\source\\repos\\practica\\practica.module\\businessobjects\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{805AEC2B-909B-4D0E-8D13-F96383F7B9FF}|practica.Module\\practica.Module.csproj|solutionrelative:practica.module\\businessobjects\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{805AEC2B-909B-4D0E-8D13-F96383F7B9FF}|practica.Module\\practica.Module.csproj|C:\\Users\\rosla\\source\\repos\\practica\\practica.module\\businessobjects\\institute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -21,14 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{805AEC2B-909B-4D0E-8D13-F96383F7B9FF}|practica.Module\\practica.Module.csproj|C:\\Users\\rosla\\source\\repos\\practica\\practica.module\\businessobjects\\group.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{805AEC2B-909B-4D0E-8D13-F96383F7B9FF}|practica.Module\\practica.Module.csproj|solutionrelative:practica.module\\businessobjects\\group.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{805AEC2B-909B-4D0E-8D13-F96383F7B9FF}|practica.Module\\practica.Module.csproj|c:\\users\\rosla\\source\\repos\\practica\\practica.module\\businessobjects\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{805AEC2B-909B-4D0E-8D13-F96383F7B9FF}|practica.Module\\practica.Module.csproj|solutionrelative:practica.module\\businessobjects\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{805AEC2B-909B-4D0E-8D13-F96383F7B9FF}|practica.Module\\practica.Module.csproj|C:\\Users\\rosla\\source\\repos\\practica\\practica.module\\businessobjects\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{805AEC2B-909B-4D0E-8D13-F96383F7B9FF}|practica.Module\\practica.Module.csproj|solutionrelative:practica.module\\businessobjects\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,38 +38,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Model.DesignedDiffs.xafml",
-              "DocumentMoniker": "C:\\Users\\rosla\\source\\repos\\practica\\practica.Module\\Model.DesignedDiffs.xafml",
-              "RelativeDocumentMoniker": "practica.Module\\Model.DesignedDiffs.xafml",
-              "ToolTip": "C:\\Users\\rosla\\source\\repos\\practica\\practica.Module\\Model.DesignedDiffs.xafml",
-              "RelativeToolTip": "practica.Module\\Model.DesignedDiffs.xafml",
-              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALTSURBVDhPpZNbSFRRFIb/fS6eOaM52jgy1lhqmdpINyIogih7qB566KGCxMaXQrAeeqoIKhGCgkCQoh6KwoKaqMxCNIioTBCyi6Y1FU05jtNlbI7j3M5tt0eHwOqpPticzd5r/XutxX/wX1BKM7t/h2S\u002BM6B0RzHik9ughT0gYgiS4wwkvosQr5oJ\u002BcUMAXpxb4mxXtlKXL4DnKbOh84q5NkFxyMeyHl4n3Me/VFqvKon7ZHpDCZAWzZJyMqtQVypx2R0rW5L2M0VSVFcIoDMIkh9A4YGVDzTVYSXWie4HOljnlBwRSQWb73c7if09IbHiEXXwtCZHAeYbMGEVjCOH9UC7o/H4V8ugBbL4DUDVKNIT06WrQHZnN1KAo2LaZEzG5yQrtWEHlUwPGbiibwOI2vqEJk9iFnl55DnGIMo57JHRPACRWgwhQFvvJ/07qo07VaOOAstCCopPDLdeOneg4nSmnSL4A22zE\u002BQbedhX9gBSU7C16Vi6G4CZop/QPo81TFeT1nVRAw3XB6EtjRBtvAgiamCpkh3li47EW6DHjsIX2cKECkKC5xXOSJZA4auQ\u002BA5xFUNYd8wzHEFosiGL7A4K9PRo3jffRVv73UjFeXBZQGGqWKuY947zlZWsYfLznsDU4MtGUZyPIixwV4oo37Wq8kEn6P/UhM\u002B99xhM5iEoWnQVQNlrsq2Mlf52SkfDJ/YXWL4X5y5FS3d/KCyARJT5wQJekLBSF8HqK6BmlY43CHkz3k\u002BkRNZdFxf5Wjxbvcav4w0dqo2\u002B7ZaVXtdXXaWpwaxWKyIjLxmFfSB8AIzpobV6wo7F1QFDzXXXX\u002BZSfvTynWtT/d\u002B//7tpMFJuYmvH/BlqIedEjjy829t2rhy35EGz\u002Bh05DRp18zgcuOac\u002B5ix1Y5ixtKplQQAs1dseBwUbV95\u002B/Jaf76M6XZf6G3PPjB18wrH29eaz12LXP8G8BPoRwphdwLay4AAAAASUVORK5CYII=",
-              "WhenOpened": "2024-06-23T13:53:58.588Z",
+              "DocumentIndex": 0,
+              "Title": "Department.cs",
+              "DocumentMoniker": "C:\\Users\\rosla\\source\\repos\\practica\\practica.Module\\BusinessObjects\\Department.cs",
+              "RelativeDocumentMoniker": "practica.Module\\BusinessObjects\\Department.cs",
+              "ToolTip": "C:\\Users\\rosla\\source\\repos\\practica\\practica.Module\\BusinessObjects\\Department.cs",
+              "RelativeToolTip": "practica.Module\\BusinessObjects\\Department.cs",
+              "ViewState": "AQIAADsAAAAAAAAAAAAIwE4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T22:24:11.337Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "Teacher.cs",
               "DocumentMoniker": "C:\\Users\\rosla\\source\\repos\\practica\\practica.Module\\BusinessObjects\\Teacher.cs",
               "RelativeDocumentMoniker": "practica.Module\\BusinessObjects\\Teacher.cs",
               "ToolTip": "C:\\Users\\rosla\\source\\repos\\practica\\practica.Module\\BusinessObjects\\Teacher.cs",
               "RelativeToolTip": "practica.Module\\BusinessObjects\\Teacher.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAACMAAAAAAAAA",
+              "ViewState": "AQIAAD4AAAAAAAAAAAAcwFMAAABiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-22T19:51:06.449Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "Student.cs",
               "DocumentMoniker": "C:\\Users\\rosla\\source\\repos\\practica\\practica.Module\\BusinessObjects\\Student.cs",
               "RelativeDocumentMoniker": "practica.Module\\BusinessObjects\\Student.cs",
               "ToolTip": "C:\\Users\\rosla\\source\\repos\\practica\\practica.Module\\BusinessObjects\\Student.cs",
               "RelativeToolTip": "practica.Module\\BusinessObjects\\Student.cs",
-              "ViewState": "AQIAAD4AAAAAAAAAAAAIwDUAAAAmAAAA",
+              "ViewState": "AQIAAFEAAAAAAAAAAAAgwFwAAABiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-22T19:51:03.999Z",
               "EditorCaption": ""
@@ -90,7 +83,7 @@
               "RelativeDocumentMoniker": "practica.Module\\BusinessObjects\\Institute.cs",
               "ToolTip": "C:\\Users\\rosla\\source\\repos\\practica\\practica.Module\\BusinessObjects\\Institute.cs",
               "RelativeToolTip": "practica.Module\\BusinessObjects\\Institute.cs",
-              "ViewState": "AQIAABoAAAAAAAAAAAAQwCsAAAAtAAAA",
+              "ViewState": "AQIAACoAAAAAAAAAAAAowCsAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-22T19:50:29.015Z",
               "EditorCaption": ""
@@ -103,35 +96,9 @@
               "RelativeDocumentMoniker": "practica.Module\\BusinessObjects\\Group.cs",
               "ToolTip": "C:\\Users\\rosla\\source\\repos\\practica\\practica.Module\\BusinessObjects\\Group.cs",
               "RelativeToolTip": "practica.Module\\BusinessObjects\\Group.cs",
-              "ViewState": "AQIAABkAAAAAAAAAAAAgwDAAAAAIAAAA",
+              "ViewState": "AQIAABsAAAAAAAAAAAAowDAAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-22T19:50:27.479Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "EducationalProgram.cs",
-              "DocumentMoniker": "C:\\Users\\rosla\\source\\repos\\practica\\practica.Module\\BusinessObjects\\EducationalProgram.cs",
-              "RelativeDocumentMoniker": "practica.Module\\BusinessObjects\\EducationalProgram.cs",
-              "ToolTip": "C:\\Users\\rosla\\source\\repos\\practica\\practica.Module\\BusinessObjects\\EducationalProgram.cs",
-              "RelativeToolTip": "practica.Module\\BusinessObjects\\EducationalProgram.cs",
-              "ViewState": "AQIAACQAAAAAAAAAAAAowDoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T19:50:22.69Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Department.cs",
-              "DocumentMoniker": "C:\\Users\\rosla\\source\\repos\\practica\\practica.Module\\BusinessObjects\\Department.cs",
-              "RelativeDocumentMoniker": "practica.Module\\BusinessObjects\\Department.cs",
-              "ToolTip": "C:\\Users\\rosla\\source\\repos\\practica\\practica.Module\\BusinessObjects\\Department.cs",
-              "RelativeToolTip": "practica.Module\\BusinessObjects\\Department.cs",
-              "ViewState": "AQIAACQAAAAAAAAAAAAwwD4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T19:50:20.2Z",
               "EditorCaption": ""
             }
           ]

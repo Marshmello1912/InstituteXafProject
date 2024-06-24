@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rosla\\source\\repos\\practica\\practica.Module\\practica.Module.csproj": {}
+    "C:\\Users\\rosla\\source\\repos\\Practica\\practica.Module\\practica.Module.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rosla\\source\\repos\\practica\\practica.Module\\practica.Module.csproj": {
+    "C:\\Users\\rosla\\source\\repos\\Practica\\practica.Module\\practica.Module.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rosla\\source\\repos\\practica\\practica.Module\\practica.Module.csproj",
+        "projectUniqueName": "C:\\Users\\rosla\\source\\repos\\Practica\\practica.Module\\practica.Module.csproj",
         "projectName": "practica.Module",
-        "projectPath": "C:\\Users\\rosla\\source\\repos\\practica\\practica.Module\\practica.Module.csproj",
+        "projectPath": "C:\\Users\\rosla\\source\\repos\\Practica\\practica.Module\\practica.Module.csproj",
         "packagesPath": "C:\\Users\\rosla\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rosla\\source\\repos\\practica\\practica.Module\\obj\\",
+        "outputPath": "C:\\Users\\rosla\\source\\repos\\Practica\\practica.Module\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [

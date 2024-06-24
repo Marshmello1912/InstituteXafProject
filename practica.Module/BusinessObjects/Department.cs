@@ -74,14 +74,14 @@ namespace practica.Module.BusinessObjects
         }
 
 
-        [Size(SizeAttribute.DefaultStringMappingFieldSize)]
+        [Size(SizeAttribute.DefaultStringMappingFieldSize), RuleRegularExpression("^((8|\\+7)[\\- ]?)?(\\(?\\d{3}\\)?[\\- ]?)?[\\d\\- ]{7,10}$", CustomMessageTemplate = "Enter correct phone nomber")]
         public string PhoneNumber
         {
             get => phoneNumber;
             set => SetPropertyValue(nameof(PhoneNumber), ref phoneNumber, value);
         }
         
-        [Size(SizeAttribute.DefaultStringMappingFieldSize), RuleRequiredField]
+        [Size(SizeAttribute.DefaultStringMappingFieldSize), RuleRequiredField, RuleRegularExpression("[\\s\\S]+@[\\s\\S]+\\.[\\s\\S]", CustomMessageTemplate = "Enter correct email")]
         public string Email
         {
             get => email;

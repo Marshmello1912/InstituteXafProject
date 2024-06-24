@@ -2322,11 +2322,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rosla\\source\\repos\\practica\\practica.Web\\practica.Web.csproj",
+      "projectUniqueName": "C:\\Users\\rosla\\source\\repos\\Practica\\practica.Web\\practica.Web.csproj",
       "projectName": "practica.Web",
-      "projectPath": "C:\\Users\\rosla\\source\\repos\\practica\\practica.Web\\practica.Web.csproj",
+      "projectPath": "C:\\Users\\rosla\\source\\repos\\Practica\\practica.Web\\practica.Web.csproj",
       "packagesPath": "C:\\Users\\rosla\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rosla\\source\\repos\\practica\\practica.Web\\obj\\",
+      "outputPath": "C:\\Users\\rosla\\source\\repos\\Practica\\practica.Web\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -2348,11 +2348,11 @@
       "frameworks": {
         "net48": {
           "projectReferences": {
-            "C:\\Users\\rosla\\source\\repos\\practica\\practica.Module.Web\\practica.Module.Web.csproj": {
-              "projectPath": "C:\\Users\\rosla\\source\\repos\\practica\\practica.Module.Web\\practica.Module.Web.csproj"
+            "C:\\Users\\rosla\\source\\repos\\Practica\\practica.Module.Web\\practica.Module.Web.csproj": {
+              "projectPath": "C:\\Users\\rosla\\source\\repos\\Practica\\practica.Module.Web\\practica.Module.Web.csproj"
             },
-            "C:\\Users\\rosla\\source\\repos\\practica\\practica.Module\\practica.Module.csproj": {
-              "projectPath": "C:\\Users\\rosla\\source\\repos\\practica\\practica.Module\\practica.Module.csproj"
+            "C:\\Users\\rosla\\source\\repos\\Practica\\practica.Module\\practica.Module.csproj": {
+              "projectPath": "C:\\Users\\rosla\\source\\repos\\Practica\\practica.Module\\practica.Module.csproj"
             }
           }
         }

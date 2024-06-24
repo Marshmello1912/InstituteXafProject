@@ -35,6 +35,7 @@ namespace practica.Module.BusinessObjects
         }
 
 
+        byte[] photo;
         Department department;
         int teacherId;
         string mail;
@@ -49,7 +50,7 @@ namespace practica.Module.BusinessObjects
         }
 
 
-        [Size(SizeAttribute.DefaultStringMappingFieldSize)]
+        [Size(SizeAttribute.DefaultStringMappingFieldSize), RuleRegularExpression("^((8|\\+7)[\\- ]?)?(\\(?\\d{3}\\)?[\\- ]?)?[\\d\\- ]{7,10}$", CustomMessageTemplate = "Enter correct phone nomber")]
         public string PhoneNomber
         {
             get => phoneNomber;
@@ -57,7 +58,7 @@ namespace practica.Module.BusinessObjects
         }
 
 
-        [Size(SizeAttribute.DefaultStringMappingFieldSize), RuleRequiredField]
+        [Size(SizeAttribute.DefaultStringMappingFieldSize), RuleRequiredField, RuleRegularExpression("[\\s\\S]+@[\\s\\S]+\\.[\\s\\S]", CustomMessageTemplate = "Enter correct email")]
         public string Mail
         {
             get => mail;
@@ -72,7 +73,7 @@ namespace practica.Module.BusinessObjects
             set => SetPropertyValue(nameof(TeacherId), ref teacherId, value);
         }
 
-        
+
         [Association("Department-Teachers")]
         public Department Department
         {
@@ -80,6 +81,11 @@ namespace practica.Module.BusinessObjects
             set => SetPropertyValue(nameof(Department), ref department, value);
         }
 
-
+        [ImageEditor(DetailViewImageEditorFixedHeight = 200, ListViewImageEditorCustomHeight = 100)]
+        public byte[] Photo
+        {
+            get => photo;
+            set => SetPropertyValue(nameof(Photo), ref photo, value);
+        }
     }
 }
